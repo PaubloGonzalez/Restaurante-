@@ -1,0 +1,53 @@
+﻿@model LN_WEB.Entities.DishEnt
+
+@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br>
+<h5>Usuario</h5>
+<br>
+
+@using (Html.BeginForm("UpdateDish", "Dish", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-5">
+            <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+
+                @if (ViewBag.MsjPantalla != null)
+                {
+                    <div style="text-align:center" class="alert alert-warning" role="alert">
+                        @ViewBag.MsjPantalla
+                    </div>
+                }
+
+                @Html.HiddenFor(m => m.IdDish)
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Name, new { @type = "text", @class = "form-control", placeholder = "Nombre" })
+                    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Ingredients, new { @type = "number", @class = "form-control", placeholder = "Ingredients" })
+                    @Html.ValidationMessageFor(m => m.Ingredients, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Price, new { @type = "number", @class = "form-control", placeholder = "Price" })
+                    @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="file" id="ImageDish" name="ImageDish" class="form-control" accept="image/jpg, image/jpeg, image/png">
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Image, new { @type = "text", readOnly = "readOnly", @class = "form-control", placeholder = "Image" })
+                </div>
+
+                <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Actualizar</button>
+
+            </div>
+        </div>
+    </div>
+}

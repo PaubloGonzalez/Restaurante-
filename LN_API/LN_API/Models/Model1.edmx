@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EL_VARONModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Ask">
+          <Key>
+            <PropertyRef Name="IdAsk" />
+          </Key>
+          <Property Name="IdAsk" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Phone" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="TypeAsk" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Message" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Estado" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Bitacora">
+          <Key>
+            <PropertyRef Name="IdBitacora" />
+          </Key>
+          <Property Name="IdBitacora" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FechaHora" Type="datetime" Nullable="false" />
+          <Property Name="Mensaje" Type="varchar" MaxLength="5000" Nullable="false" />
+          <Property Name="Origen" Type="varchar" MaxLength="5000" Nullable="false" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+          <Property Name="DireccionIP" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Dish">
+          <Key>
+            <PropertyRef Name="IdDish" />
+          </Key>
+          <Property Name="IdDish" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Ingredients" Type="varchar" MaxLength="2500" Nullable="false" />
+          <Property Name="Image" Type="varchar" MaxLength="3000" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DishCart">
+          <Key>
+            <PropertyRef Name="IdDishCart" />
+          </Key>
+          <Property Name="IdDishCart" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdDish" Type="bigint" Nullable="false" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+          <Property Name="RegistDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DishUsuario">
+          <Key>
+            <PropertyRef Name="IdDishUsuario" />
+          </Key>
+          <Property Name="IdDishUsuario" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdDish" Type="bigint" Nullable="false" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+          <Property Name="RegistDate" Type="datetime" Nullable="false" />
+          <Property Name="PricePaid" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="IdRol" />
+          </Key>
+          <Property Name="IdRol" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreRol" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Estado" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="IdUsuario" />
+          </Key>
+          <Property Name="IdUsuario" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CorreoElectronico" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contrasenna" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Identificacion" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Estado" Type="bit" Nullable="false" />
+          <Property Name="IdRol" Type="int" Nullable="false" />
+          <Property Name="Image" Type="varchar" MaxLength="3000" />
+          <Property Name="ClaveTemporal" Type="bit" />
+          <Property Name="FechaNacimiento" Type="date" />
+          <Property Name="Caducidad" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_DishCart_Dish">
+          <End Role="Dish" Type="Self.Dish" Multiplicity="1" />
+          <End Role="DishCart" Type="Self.DishCart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dish">
+              <PropertyRef Name="IdDish" />
+            </Principal>
+            <Dependent Role="DishCart">
+              <PropertyRef Name="IdDish" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishCart_Usuario">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="DishCart" Type="Self.DishCart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="IdUsuario" />
+            </Principal>
+            <Dependent Role="DishCart">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishUsuario_Dish">
+          <End Role="Dish" Type="Self.Dish" Multiplicity="1" />
+          <End Role="DishUsuario" Type="Self.DishUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dish">
+              <PropertyRef Name="IdDish" />
+            </Principal>
+            <Dependent Role="DishUsuario">
+              <PropertyRef Name="IdDish" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishUsuario_Usuario">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="DishUsuario" Type="Self.DishUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="IdUsuario" />
+            </Principal>
+            <Dependent Role="DishUsuario">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usuario_Rol">
+          <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="IdRol" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="IdRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="IniciarSesion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CorreoElectronico" Type="varchar" Mode="In" />
+          <Parameter Name="Contrasenna" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="RegistrarUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CorreoElectronico" Type="varchar" Mode="In" />
+          <Parameter Name="Contrasenna" Type="varchar" Mode="In" />
+          <Parameter Name="Identificacion" Type="varchar" Mode="In" />
+          <Parameter Name="Nombre" Type="varchar" Mode="In" />
+          <Parameter Name="Image" Type="varchar" Mode="In" />
+          <Parameter Name="Estado" Type="bit" Mode="In" />
+          <Parameter Name="IdRol" Type="int" Mode="In" />
+          <Parameter Name="FechaNacimiento" Type="date" Mode="In" />
+        </Function>
+        <EntityContainer Name="EL_VARONModelStoreContainer">
+          <EntitySet Name="Ask" EntityType="Self.Ask" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bitacora" EntityType="Self.Bitacora" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dish" EntityType="Self.Dish" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DishCart" EntityType="Self.DishCart" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DishUsuario" EntityType="Self.DishUsuario" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DishCart_Dish" Association="Self.FK_DishCart_Dish">
+            <End Role="Dish" EntitySet="Dish" />
+            <End Role="DishCart" EntitySet="DishCart" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishCart_Usuario" Association="Self.FK_DishCart_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="DishCart" EntitySet="DishCart" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishUsuario_Dish" Association="Self.FK_DishUsuario_Dish">
+            <End Role="Dish" EntitySet="Dish" />
+            <End Role="DishUsuario" EntitySet="DishUsuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishUsuario_Usuario" Association="Self.FK_DishUsuario_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="DishUsuario" EntitySet="DishUsuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_Rol" Association="Self.FK_Usuario_Rol">
+            <End Role="Rol" EntitySet="Rol" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EL_VARONModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Ask">
+          <Key>
+            <PropertyRef Name="IdAsk" />
+          </Key>
+          <Property Name="IdAsk" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TypeAsk" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Message" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Bitacora">
+          <Key>
+            <PropertyRef Name="IdBitacora" />
+          </Key>
+          <Property Name="IdBitacora" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Mensaje" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Origen" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IdUsuario" Type="Int64" Nullable="false" />
+          <Property Name="DireccionIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Dish">
+          <Key>
+            <PropertyRef Name="IdDish" />
+          </Key>
+          <Property Name="IdDish" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Ingredients" Type="String" MaxLength="2500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Image" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="DishCart" Relationship="Self.FK_DishCart_Dish" FromRole="Dish" ToRole="DishCart" />
+          <NavigationProperty Name="DishUsuario" Relationship="Self.FK_DishUsuario_Dish" FromRole="Dish" ToRole="DishUsuario" />
+        </EntityType>
+        <EntityType Name="DishCart">
+          <Key>
+            <PropertyRef Name="IdDishCart" />
+          </Key>
+          <Property Name="IdDishCart" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdDish" Type="Int64" Nullable="false" />
+          <Property Name="IdUsuario" Type="Int64" Nullable="false" />
+          <Property Name="RegistDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Dish" Relationship="Self.FK_DishCart_Dish" FromRole="DishCart" ToRole="Dish" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK_DishCart_Usuario" FromRole="DishCart" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="DishUsuario">
+          <Key>
+            <PropertyRef Name="IdDishUsuario" />
+          </Key>
+          <Property Name="IdDishUsuario" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdDish" Type="Int64" Nullable="false" />
+          <Property Name="IdUsuario" Type="Int64" Nullable="false" />
+          <Property Name="RegistDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PricePaid" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <NavigationProperty Name="Dish" Relationship="Self.FK_DishUsuario_Dish" FromRole="DishUsuario" ToRole="Dish" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK_DishUsuario_Usuario" FromRole="DishUsuario" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="IdRol" />
+          </Key>
+          <Property Name="IdRol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreRol" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK_Usuario_Rol" FromRole="Rol" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="IdUsuario" />
+          </Key>
+          <Property Name="IdUsuario" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CorreoElectronico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Contrasenna" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="Boolean" Nullable="false" />
+          <Property Name="IdRol" Type="Int32" Nullable="false" />
+          <Property Name="Image" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" />
+          <Property Name="ClaveTemporal" Type="Boolean" />
+          <Property Name="FechaNacimiento" Type="DateTime" Precision="0" />
+          <Property Name="Caducidad" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="DishCart" Relationship="Self.FK_DishCart_Usuario" FromRole="Usuario" ToRole="DishCart" />
+          <NavigationProperty Name="DishUsuario" Relationship="Self.FK_DishUsuario_Usuario" FromRole="Usuario" ToRole="DishUsuario" />
+          <NavigationProperty Name="Rol" Relationship="Self.FK_Usuario_Rol" FromRole="Usuario" ToRole="Rol" />
+        </EntityType>
+        <Association Name="FK_DishCart_Dish">
+          <End Role="Dish" Type="Self.Dish" Multiplicity="1" />
+          <End Role="DishCart" Type="Self.DishCart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dish">
+              <PropertyRef Name="IdDish" />
+            </Principal>
+            <Dependent Role="DishCart">
+              <PropertyRef Name="IdDish" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishUsuario_Dish">
+          <End Role="Dish" Type="Self.Dish" Multiplicity="1" />
+          <End Role="DishUsuario" Type="Self.DishUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dish">
+              <PropertyRef Name="IdDish" />
+            </Principal>
+            <Dependent Role="DishUsuario">
+              <PropertyRef Name="IdDish" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishCart_Usuario">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="DishCart" Type="Self.DishCart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="IdUsuario" />
+            </Principal>
+            <Dependent Role="DishCart">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DishUsuario_Usuario">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="DishUsuario" Type="Self.DishUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="IdUsuario" />
+            </Principal>
+            <Dependent Role="DishUsuario">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usuario_Rol">
+          <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="IdRol" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="IdRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EL_VARONEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Ask" EntityType="Self.Ask" />
+          <EntitySet Name="Bitacora" EntityType="Self.Bitacora" />
+          <EntitySet Name="Dish" EntityType="Self.Dish" />
+          <EntitySet Name="DishCart" EntityType="Self.DishCart" />
+          <EntitySet Name="DishUsuario" EntityType="Self.DishUsuario" />
+          <EntitySet Name="Rol" EntityType="Self.Rol" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+          <AssociationSet Name="FK_DishCart_Dish" Association="Self.FK_DishCart_Dish">
+            <End Role="Dish" EntitySet="Dish" />
+            <End Role="DishCart" EntitySet="DishCart" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishUsuario_Dish" Association="Self.FK_DishUsuario_Dish">
+            <End Role="Dish" EntitySet="Dish" />
+            <End Role="DishUsuario" EntitySet="DishUsuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishCart_Usuario" Association="Self.FK_DishCart_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="DishCart" EntitySet="DishCart" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DishUsuario_Usuario" Association="Self.FK_DishUsuario_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="DishUsuario" EntitySet="DishUsuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_Rol" Association="Self.FK_Usuario_Rol">
+            <End Role="Rol" EntitySet="Rol" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+          <FunctionImport Name="IniciarSesion" ReturnType="Collection(EL_VARONModel.IniciarSesion_Result)">
+            <Parameter Name="CorreoElectronico" Mode="In" Type="String" />
+            <Parameter Name="Contrasenna" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="RegistrarUsuario">
+            <Parameter Name="CorreoElectronico" Mode="In" Type="String" />
+            <Parameter Name="Contrasenna" Mode="In" Type="String" />
+            <Parameter Name="Identificacion" Mode="In" Type="String" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Image" Mode="In" Type="String" />
+            <Parameter Name="Estado" Mode="In" Type="Boolean" />
+            <Parameter Name="IdRol" Mode="In" Type="Int32" />
+            <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="IniciarSesion_Result">
+          <Property Type="Int64" Name="IdUsuario" Nullable="false" />
+          <Property Type="String" Name="CorreoElectronico" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Identificacion" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="100" />
+          <Property Type="Boolean" Name="Estado" Nullable="false" />
+          <Property Type="Int32" Name="IdRol" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EL_VARONModelStoreContainer" CdmEntityContainer="EL_VARONEntities">
+          <EntitySetMapping Name="Ask">
+            <EntityTypeMapping TypeName="EL_VARONModel.Ask">
+              <MappingFragment StoreEntitySet="Ask">
+                <ScalarProperty Name="IdAsk" ColumnName="IdAsk" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="TypeAsk" ColumnName="TypeAsk" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bitacora">
+            <EntityTypeMapping TypeName="EL_VARONModel.Bitacora">
+              <MappingFragment StoreEntitySet="Bitacora">
+                <ScalarProperty Name="IdBitacora" ColumnName="IdBitacora" />
+                <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+                <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+                <ScalarProperty Name="Origen" ColumnName="Origen" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="DireccionIP" ColumnName="DireccionIP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dish">
+            <EntityTypeMapping TypeName="EL_VARONModel.Dish">
+              <MappingFragment StoreEntitySet="Dish">
+                <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Ingredients" ColumnName="Ingredients" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DishCart">
+            <EntityTypeMapping TypeName="EL_VARONModel.DishCart">
+              <MappingFragment StoreEntitySet="DishCart">
+                <ScalarProperty Name="IdDishCart" ColumnName="IdDishCart" />
+                <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DishUsuario">
+            <EntityTypeMapping TypeName="EL_VARONModel.DishUsuario">
+              <MappingFragment StoreEntitySet="DishUsuario">
+                <ScalarProperty Name="IdDishUsuario" ColumnName="IdDishUsuario" />
+                <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+                <ScalarProperty Name="PricePaid" ColumnName="PricePaid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rol">
+            <EntityTypeMapping TypeName="EL_VARONModel.Rol">
+              <MappingFragment StoreEntitySet="Rol">
+                <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+                <ScalarProperty Name="NombreRol" ColumnName="NombreRol" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuario">
+            <EntityTypeMapping TypeName="EL_VARONModel.Usuario">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+                <ScalarProperty Name="Contrasenna" ColumnName="Contrasenna" />
+                <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="ClaveTemporal" ColumnName="ClaveTemporal" />
+                <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+                <ScalarProperty Name="Caducidad" ColumnName="Caducidad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="IniciarSesion" FunctionName="EL_VARONModel.Store.IniciarSesion">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="EL_VARONModel.IniciarSesion_Result">
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+                <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="RegistrarUsuario" FunctionName="EL_VARONModel.Store.RegistrarUsuario" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

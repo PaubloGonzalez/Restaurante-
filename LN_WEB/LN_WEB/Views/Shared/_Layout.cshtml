@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EL VARON</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+
+    <link href="~/WebStyles/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/WebStyles/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/style.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/estilos1.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/_contact.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/table.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/Casa.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/About.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/modelMenu.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/Casa.css" rel="stylesheet" />
+    <link href="~/WebStyles/css/Blog-Template.css" rel="stylesheet" />
+
+    <!-- estilos menu -->
+    <link href="~/WebStyles/css/menu/css/all.min.css" rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/owl.carousel.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/magnific-popup.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/animate.css">
+    <!-- mean menu css -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/meanmenu.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/main.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="~/WebStyles/css/menu/css/responsive.css">
+
+    <body>
+        <div class="container-xxl position-relative bg-white d-flex p-0" style="max-width:100%">
+
+            <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <div class="sidebar pe-4 pb-3">
+                <nav class="navbar bg-light navbar-light">
+                    <center class="image-column">
+                        <a href="@Url.Action("Inicio", "Home")" class="navbar-brand mx-4 mb-3">
+
+                            <img src="~/images/logoNew.png" width="280" height="160" />
+
+                        </a>
+                    </center>
+                    <div class="navbar-nav w-100">
+
+                        @if (Session["RolUsuario"].ToString() == "2")
+                        {
+
+                            <a href="@Url.Action("Menu", "Dish")" class="nav-link"> <i class="fas fa-utensils me-2"></i>Menú</a>
+                        }
+
+
+                        <div class="nav-item dropdown">
+                            @if (Session["RolUsuario"].ToString() == "1")
+                            {
+                                <a href="#" class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-utensils me-2"></i>Menú
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0" aria-labelledby="menuDropdown" style="background-color: #242424; ">
+
+                                    <li><a href="@Url.Action("Menu", "Dish")" class="dropdown-item">Menú</a></li>
+                                    <li><a href="@Url.Action("CheckDishes","Dish")" class="dropdown-item">Editar Menú</a></li>
+                                    <li><a href="@Url.Action("Add","Dish")" class="dropdown-item">Añadir Plato</a></li>
+
+                                </ul>
+                            }
+                        </div>
+
+
+                        @if (Session["RolUsuario"].ToString() == "1")
+                        {
+                            <a href="@Url.Action("ConsultaUsuarios","Usuario")" class="nav-link"><i class="fa fa-user me-2"></i>Usuarios</a>
+                            <a href="@Url.Action("Reportes","Reportes")" class="nav-link" ch><i class="fa fa-chart-bar me-2"></i>Reportes</a>
+                        }
+
+                        <a href="@Url.Action("CheckPayment","Dish")" class="nav-link"><i class="fa fa-dollar-sign me-2"></i>Pagos</a>
+
+
+
+                        <a href="@Url.Action("Reserva", "Reserva")" class="nav-link"><i class="fas fa-calendar-check me-2"></i>Reservar</a>
+
+
+                        @if (Session["RolUsuario"].ToString() == "2")
+                        {
+
+                            <a href="@Url.Action("Contacto", "Contacto")" class="nav-link"> <i class="fa fa-envelope me-2"></i>Contacto</a>
+                        }
+
+
+                        <div class="nav-item dropdown">
+                            @if (Session["RolUsuario"].ToString() == "1")
+                            {
+                                <a href="#" class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope me-2"></i>Contacto
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0" aria-labelledby="menuDropdown" style="background-color: #242424; ">
+
+                                    <li> <a href="@Url.Action("Contacto","Contacto")" class="dropdown-item">Contacto</a></li>
+                                    <li><a href="@Url.Action("CheckAsks","Contacto")" class="dropdown-item">Ver Consultas</a></li>
+
+                                </ul>
+                            }
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+
+            <div class="content">
+                <nav id="navbar" class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+                    <a href="#" class="sidebar-toggler flex-shrink-0">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <form class="d-none d-md-flex ms-4">
+                        <input class="form-control border-0" id="searchInput" type="search" placeholder="Buscar">
+                    </form>
+
+                    <div class="navbar-nav align-items-center ms-auto">
+
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                <h4 class="d-none d-lg-inline-flex"> @Session["NombreUsuario"].ToString() </h4>
+                                <br />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
+                                <h5><a href="@Url.Action("Perfil","Usuario")" class="dropdown-item">Ajustes de Perfil</a></h5>
+                                <h5><a href="@Url.Action("Cambiar","Home")" class="dropdown-item">Cambiar Contraseña</a></h5>
+                                <h5><a href="@Url.Action("CerrarSesion","Home")" class="dropdown-item">Cerrar Sesión</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+                <div class="container-fluid pt-4 px-4">
+                    <div class="row bg-light rounded align-items-center justify-content-center mx-0">
+                        <div class="col-md-12 text-center">
+
+                            @RenderBody()
+
+                        </div>
+                    </div>
+                    <br />
+
+                    
+
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="~/WebStyles/lib/chart/chart.min.js"></script>
+            <script src="~/WebStyles/lib/easing/easing.min.js"></script>
+            <script src="~/WebStyles/lib/waypoints/waypoints.min.js"></script>
+            <script src="~/WebStyles/lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="~/WebStyles/lib/tempusdominus/js/moment.min.js"></script>
+            <script src="~/WebStyles/lib/tempusdominus/js/moment-timezone.min.js"></script>
+            <script src="~/WebStyles/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+            <script src="~/WebStyles/js/main.js"></script>
+            <script src="~/WebStyles/js/report_script.js"></script>
+            <script src="~/WebStyles/js/cart_script.js"></script>
+            <script src="~/WebStyles/js/search.js"></script>
+            <script src="~/WebStyles/js/navb.js"></script>
+            <script src="~/WebStyles/js/jquery.js"></script>
+            <script src="~/WebStyles/js/nicepage.js"></script>
+
+
+
+            <script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function () {
+                    var currentScrollPos = window.pageYOffset;
+                    if (prevScrollpos > currentScrollPos) {
+                        document.getElementById("navbar").style.top = "0";
+                    } else {
+                        document.getElementById("navbar").style.top = "-90px"; // Ajusta según la altura de tu navbar
+                    }
+                    prevScrollpos = currentScrollPos;
+                }
+            </script>
+    </body>
+</html>

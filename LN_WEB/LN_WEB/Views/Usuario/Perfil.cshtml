@@ -1,0 +1,68 @@
+﻿@model LN_WEB.Entities.UsuarioEnt
+@{
+    ViewBag.Title = "Perfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    .card {
+        background-color: #F28123; /* Naranja */
+        color: #FFFFFF; /* Letras blancas para mayor legibilidad */
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px; /* Ajusta el relleno según tus preferencias */
+        text-align: center;
+    }
+
+    .user-image i {
+        color: #FFFFFF; /* Color del ícono */
+    }
+
+    /* Estilos del botón */
+    .btn {
+        background-color: #1E1E1E; /* Fondo del botón */
+        color: #FFFFFF; /* Color del texto del botón */
+        border: 1px solid #FFFFFF; /* Borde del botón */
+        border-radius: 5px; /* Esquinas redondeadas del botón */
+        padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        display: inline-block; /* Hace que el botón sea un elemento en línea */
+    }
+
+        .btn:hover {
+            background-color: #FFFFFF; /* Cambia el fondo al pasar el mouse */
+            color: #1E1E1E; /* Cambia el color del texto al pasar el mouse */
+        }
+    
+</style>
+<section>
+
+    <div class="container-card">
+
+        <div class="card" ">
+            <center>
+                <figure>
+                    <br>
+                    <div class="user-image">
+                        <i class="fas fa-user fa-4x"></i>
+                        <!-- Cambia "fa-user" a la clase del ícono que desees y ajusta la clase "fa-5x" según sea necesario -->
+                    </div>
+                </figure>
+            </center>
+
+            <div class="contenido-card">
+                <h3 class="d-none d-lg-inline-flex"> @Session["NombreUsuario"].ToString() </h3> <br>
+                <h3 class="d-none d-lg-inline-flex"> @Session["CorreoUsuario"].ToString() </h3> <br>
+                 
+            </div>
+            <a href="@Url.Action("CheckMyDishes","Dish")">
+                <button type="button" class="btn btn-outline-secondary">Historial de Pedidos</button>
+            </a>
+            <br>
+          
+        </div>
+
+</section>
+
+

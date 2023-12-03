@@ -1,0 +1,62 @@
+﻿@model LN_WEB.Entities.UsuarioEnt
+
+@{
+    ViewBag.Title = "Reservar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row h-100 align-items-center justify-content-center">
+    <div class="container-card">
+        
+        <div class="card" style="background: url('../../images/reserva.png')no-repeat;background-size:cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="breadcrumb-text"><br /><br />
+                            <p> EL VARON</p>
+                            <h2>Reservación de Mesa</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-5">
+                <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+
+
+                    @if (ViewBag.MsjPantalla != null)
+                    {
+                        <div style="text-align:center" class="alert alert-warning" role="alert">
+                            @ViewBag.MsjPantalla
+                        </div>
+                    }
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "text", @class = "form-control", @placeholder = "correo@correo.com" })
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "email", @class = "form-control", @placeholder = "correo@correo.com" })
+                        <label for="floatingInput">Correo Electrónico</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "date", @class = "form-control", @placeholder = "correo@correo.com" })
+                        <label for="floatingInput">Fecha</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "time", @class = "form-control", @placeholder = "correo@correo.com" })
+                        <label for="floatingInput">Hora</label>
+                    </div>
+                    <div class="form-floating mb-3">
+
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "number", @class = "form-control", @placeholder = "correo@correo.com" })
+                        <label for="floatingInput">Número de Invitados</label>
+                    </div>
+                    <button type="submit" class="btn btn-success py-3 w-100 mb-4">Reservar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+﻿@model IEnumerable<LN_WEB.Entities.AskEnt>
+
+@{
+    ViewBag.Title = "CheckAsks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<center>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p> EL VARON</p>
+                    <h2>Mis Consultas</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+
+</center>
+<br />
+<br />
+<div class="row">
+    <div class="col-12">
+
+        @if (ViewBag.MsjPantalla != null)
+        {
+            <div style="text-align:center" class="alert alert-warning" role="alert">
+                @ViewBag.MsjPantalla
+            </div>
+        }
+
+    <table class="table table-bordered" id="usersTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>TypeAsk</th>
+                <th>Message</th>
+                <th>Eliminar</th>
+            </tr>
+        <thead>
+        <tbody id="searchResults" style="background-color: #dbd9d5; ">
+            @foreach (var item in Model)
+            {
+                <tr class="user-row">
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Phone</td>
+                    <td>@item.TypeAsk</td>
+                    <td>@item.Message</td>
+                    <td><button type="button" class="btn" onclick="RemoveAsk(@item.IdAsk, this)"><i class="fa fa-trash"></i></button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    </div>
+</div>
+
+
+
+<script>
+
+    function RemoveAsk(IdAsk, element) {
+        $.ajax({
+            type: "POST",
+            url: "/Contacto/RemoveAsk",
+            dataType: "json",
+            data: {
+                "q": IdAsk
+            },
+            success: function (respuesta) {
+                window.location.href = "/Contacto/CheckAsks";
+            },
+            error: function (error) {
+                console.error("Error en la llamada AJAX:", error);
+            }
+        });
+    }
+
+</script>

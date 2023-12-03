@@ -1,0 +1,73 @@
+﻿
+
+@{
+    ViewBag.Title = "Menu";
+}
+
+
+
+
+
+@if (ViewBag.MsjPantalla != null)
+{
+    <div style="text-align:center" class="alert alert-warning" role="alert">
+        @ViewBag.MsjPantalla
+    </div>
+}
+
+
+<section class="menu">
+    <div class="row">
+        <div class="dish">
+            <img src="~/images/prueba.png" alt="Plato 1" />
+            <h3>Plato delicioso 1</h3>
+            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">$12.99</span><br>
+            <button onclick="addToCart('Plato delicioso 1', 12.99)">Agregar al Carrito</button>
+        </div>
+
+        <div class="dish">
+            <img src="~/images/prueba.png" alt="Plato 2" />
+            <h3>Plato delicioso 2</h3>
+            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">$14.99</span><br>
+            <button onclick="addToCart('Plato delicioso 2', 14.99)">Agregar al Carrito</button>
+        </div>
+
+        <div class="dish">
+            <img src="~/images/prueba.png" alt="Plato 3" />
+            <h3>Plato delicioso 3</h3>
+            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">$16.99</span><br>
+            <button onclick="addToCart('Plato delicioso 3', 16.99)">Agregar al Carrito</button>
+        </div>
+    </div>
+        <div class="row">
+            <div class="dish">
+                <img src="~/images/prueba.png" alt="Plato 3" />
+                <h3>Plato delicioso 3</h3>
+                <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$16.99</span><br>
+                <button onclick="addToCart('Plato delicioso 3', 16.99)">Agregar al Carrito</button>
+            </div>
+
+            <div class="dish">
+                <img src="~/images/prueba.png" alt="Plato 3" />
+                <h3>Plato delicioso 3</h3>
+                <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$16.99</span><br>
+                <button onclick="addToCart('Plato delicioso 3', 16.99)">Agregar al Carrito</button>
+            </div>
+
+            <div class="dish">
+                <img src="~/images/prueba.png" alt="Plato 3" />
+                <h3>Plato delicioso 3</h3>
+                <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">$16.99</span><br>
+                <button onclick="addToCart('Plato delicioso 3', 16.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+</section>
+
+    <br>

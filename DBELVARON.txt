@@ -1,0 +1,420 @@
+USE [master]
+GO
+/****** Object:  Database [EL_VARON]    Script Date: 15/11/2023 09:25:19 ******/
+CREATE DATABASE [EL_VARON]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'EL_VARON', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\EL_VARON.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'EL_VARON_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\EL_VARON_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [EL_VARON] SET COMPATIBILITY_LEVEL = 160
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [EL_VARON].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [EL_VARON] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [EL_VARON] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [EL_VARON] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [EL_VARON] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [EL_VARON] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [EL_VARON] SET AUTO_CLOSE ON 
+GO
+ALTER DATABASE [EL_VARON] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [EL_VARON] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [EL_VARON] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [EL_VARON] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [EL_VARON] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [EL_VARON] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [EL_VARON] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [EL_VARON] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [EL_VARON] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [EL_VARON] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [EL_VARON] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [EL_VARON] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [EL_VARON] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [EL_VARON] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [EL_VARON] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [EL_VARON] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [EL_VARON] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [EL_VARON] SET  MULTI_USER 
+GO
+ALTER DATABASE [EL_VARON] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [EL_VARON] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [EL_VARON] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [EL_VARON] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [EL_VARON] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [EL_VARON] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [EL_VARON] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [EL_VARON] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+USE [EL_VARON]
+GO
+
+/****** Object:  Table [dbo].[Ask]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Ask](
+	[IdAsk] [bigint] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](250) NOT NULL,
+	[Email] [varchar](250) NOT NULL,
+	[Phone] [varchar](250) NOT NULL,
+	[TypeAsk] [varchar](250) NOT NULL,
+	[Message] [varchar](250) NOT NULL,
+	[Estado] [bit] NOT NULL,
+ CONSTRAINT [PK_IdAsk] PRIMARY KEY CLUSTERED 
+(
+	[IdAsk] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Bitacora]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Bitacora](
+	[IdBitacora] [bigint] IDENTITY(1,1) NOT NULL,
+	[FechaHora] [datetime] NOT NULL,
+	[Mensaje] [varchar](5000) NOT NULL,
+	[Origen] [varchar](5000) NOT NULL,
+	[IdUsuario] [bigint] NOT NULL,
+	[DireccionIP] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_Bitacora] PRIMARY KEY CLUSTERED 
+(
+	[IdBitacora] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Dish]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Dish](
+	[IdDish] [bigint] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](250) NOT NULL,
+	[Price] [decimal](18, 2) NOT NULL,
+	[Ingredients] [varchar](2500) NOT NULL,
+	[Image] [varchar](3000) NOT NULL,
+ CONSTRAINT [PK_Curso] PRIMARY KEY CLUSTERED 
+(
+	[IdDish] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DishCart]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DishCart](
+	[IdDishCart] [bigint] IDENTITY(1,1) NOT NULL,
+	[IdDish] [bigint] NOT NULL,
+	[IdUsuario] [bigint] NOT NULL,
+	[RegistDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_DishCart] PRIMARY KEY CLUSTERED 
+(
+	[IdDishCart] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DishUsuario]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DishUsuario](
+	[IdDishUsuario] [bigint] IDENTITY(1,1) NOT NULL,
+	[IdDish] [bigint] NOT NULL,
+	[IdUsuario] [bigint] NOT NULL,
+	[RegistDate] [datetime] NOT NULL,
+	[PricePaid] [decimal](18, 2) NOT NULL,
+ CONSTRAINT [PK_CursoUsuario] PRIMARY KEY CLUSTERED 
+(
+	[IdDishUsuario] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Rol]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Rol](
+	[IdRol] [int] IDENTITY(1,1) NOT NULL,
+	[NombreRol] [varchar](100) NOT NULL,
+	[Estado] [bit] NOT NULL,
+ CONSTRAINT [PK_Rol] PRIMARY KEY CLUSTERED 
+(
+	[IdRol] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Usuario]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuario](
+	[IdUsuario] [bigint] IDENTITY(1,1) NOT NULL,
+	[CorreoElectronico] [varchar](50) NOT NULL,
+	[Contrasenna] [varchar](20) NOT NULL,
+	[Identificacion] [varchar](20) NOT NULL,
+	[Nombre] [varchar](100) NOT NULL,
+	[Estado] [bit] NOT NULL,
+	[IdRol] [int] NOT NULL,
+	[Image] [varchar](3000) NULL,
+	[ClaveTemporal] [bit] NULL,
+	[FechaNacimiento] [date] NULL,
+	[Caducidad] [datetime] NULL,
+ CONSTRAINT [PK_Usuario] PRIMARY KEY CLUSTERED 
+(
+	[IdUsuario] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[DishCart]  WITH CHECK ADD  CONSTRAINT [FK_DishCart_Dish] FOREIGN KEY([IdDish])
+REFERENCES [dbo].[Dish] ([IdDish])
+GO
+ALTER TABLE [dbo].[DishCart] CHECK CONSTRAINT [FK_DishCart_Dish]
+GO
+ALTER TABLE [dbo].[DishCart]  WITH CHECK ADD  CONSTRAINT [FK_DishCart_Usuario] FOREIGN KEY([IdUsuario])
+REFERENCES [dbo].[Usuario] ([IdUsuario])
+GO
+ALTER TABLE [dbo].[DishCart] CHECK CONSTRAINT [FK_DishCart_Usuario]
+GO
+ALTER TABLE [dbo].[DishUsuario]  WITH CHECK ADD  CONSTRAINT [FK_DishUsuario_Dish] FOREIGN KEY([IdDish])
+REFERENCES [dbo].[Dish] ([IdDish])
+GO
+ALTER TABLE [dbo].[DishUsuario] CHECK CONSTRAINT [FK_DishUsuario_Dish]
+GO
+ALTER TABLE [dbo].[DishUsuario]  WITH CHECK ADD  CONSTRAINT [FK_DishUsuario_Usuario] FOREIGN KEY([IdUsuario])
+REFERENCES [dbo].[Usuario] ([IdUsuario])
+GO
+ALTER TABLE [dbo].[DishUsuario] CHECK CONSTRAINT [FK_DishUsuario_Usuario]
+GO
+ALTER TABLE [dbo].[Usuario]  WITH CHECK ADD  CONSTRAINT [FK_Usuario_Rol] FOREIGN KEY([IdRol])
+REFERENCES [dbo].[Rol] ([IdRol])
+GO
+ALTER TABLE [dbo].[Usuario] CHECK CONSTRAINT [FK_Usuario_Rol]
+GO
+/****** Object:  StoredProcedure [dbo].[IniciarSesion]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+CREATE PROCEDURE [dbo].[IniciarSesion]
+	@CorreoElectronico	varchar(50),
+    @Contrasenna		varchar(20)
+AS
+BEGIN
+
+	SELECT IdUsuario,
+		   CorreoElectronico,
+		   Identificacion,
+		   Nombre,
+		   Estado,
+		   IdRol
+	FROM dbo.Usuario
+	WHERE	CorreoElectronico = @CorreoElectronico
+		AND Contrasenna = @Contrasenna
+		AND Estado = 1
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[RegistrarUsuario]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[RegistrarUsuario]
+    @CorreoElectronico varchar(50),
+    @Contrasenna varchar(20),
+    @Identificacion varchar(20),
+    @Nombre varchar(100),
+	@Image varchar(100),
+    @Estado bit,
+    @IdRol int,
+    @FechaNacimiento date 
+AS
+BEGIN
+    INSERT INTO dbo.Usuario(CorreoElectronico, Contrasenna, Identificacion, Nombre, Image, Estado, IdRol, FechaNacimiento)
+    VALUES (@CorreoElectronico, @Contrasenna, @Identificacion, @Nombre, @Image, @Estado, @IdRol, @FechaNacimiento);
+END
+GO
+/****** Object:  StoredProcedure [dbo].[RegisterAsk]    Script Date: 15/11/2023 09:25:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[RegisterAsk]
+     @Name varchar(20),
+     @Email varchar(20),
+     @Phone varchar(20),
+     @TypeAsk varchar(20),
+	 @Message varchar(20),
+	 @Estado bit
+AS
+BEGIN
+    INSERT INTO dbo.Ask(Name, Email, Phone, TypeAsk, Message, Estado)
+    VALUES (@Name, @Email, @Phone, @TypeAsk, @Message, @Estado);
+END
+
+
+
+-- Insertar datos en la tabla Rol
+SET IDENTITY_INSERT dbo.Rol ON;
+INSERT INTO dbo.Rol ([IdRol], [NombreRol], [Estado])
+VALUES (1, N'Administrador', 1);
+
+INSERT INTO dbo.Rol ([IdRol], [NombreRol], [Estado])
+VALUES (2, N'Usuario', 1);
+SET IDENTITY_INSERT dbo.Rol OFF;
+
+-- Insertar datos en la tabla Usuario
+SET IDENTITY_INSERT dbo.Usuario ON;
+INSERT INTO dbo.Usuario ([IdUsuario], [CorreoElectronico], [Contrasenna], [Identificacion], [Nombre], [Estado], [IdRol], [Image], [ClaveTemporal], [Caducidad])
+VALUES (7, N'luis90415@ufide.ac.cr', N'90415', N'304590415', N'Luis Mejias', 1, 1, N'/images/avatar2.png', 0, CAST(N'2023-07-10T20:34:55.310' AS DateTime));
+
+INSERT INTO dbo.Usuario ([IdUsuario], [CorreoElectronico], [Contrasenna], [Identificacion], [Nombre], [Estado], [IdRol], [Image], [ClaveTemporal], [Caducidad])
+VALUES (11, N'carlos99615@ufide.ac.cr', N'90416', N'304590415', N'Carlos Alvarado', 1, 2, N'/images/avatar2.png', 0, CAST(N'2023-08-10T20:34:55.310' AS DateTime));
+
+INSERT INTO dbo.Usuario ([IdUsuario], [CorreoElectronico], [Contrasenna], [Identificacion], [Nombre], [Estado], [IdRol], [Image], [ClaveTemporal], [Caducidad])
+VALUES (12, N'ana123@example.com', N'password123', N'567890123', N'Ana García', 1, 2, N'/images/avatar2.png', 0, CAST(N'2023-09-15T15:45:00.000' AS DateTime));
+
+INSERT INTO dbo.Usuario ([IdUsuario], [CorreoElectronico], [Contrasenna], [Identificacion], [Nombre], [Estado], [IdRol], [Image], [ClaveTemporal], [Caducidad])
+VALUES (13, N'david555@example.com', N'abcde', N'123456789', N'David Rodriguez', 1, 2, N'/images/avatar2.png', 0, CAST(N'2023-10-20T10:30:00.000' AS DateTime));
+
+INSERT INTO dbo.Usuario ([IdUsuario], [CorreoElectronico], [Contrasenna], [Identificacion], [Nombre], [Estado], [IdRol], [Image], [ClaveTemporal], [Caducidad])
+VALUES (14, N'laura007@example.com', N'laurapass', N'987654321', N'Laura Martinez', 1, 2, N'/images/avatar2.png', 0, CAST(N'2023-11-25T18:15:00.000' AS DateTime));
+
+SET IDENTITY_INSERT dbo.Usuario OFF
+
+
+-- Inserting records into the Ask table
+
+
+
+INSERT INTO [dbo].[Ask] ([Name], [Email], [Phone], [TypeAsk], [Message], [Estado])
+VALUES ('John Doe', 'john.doe@example.com', '1234567890', 'General Inquiry', 'This is a sample message about a general inquiry.',1);
+
+INSERT INTO [dbo].[Ask] ([Name], [Email], [Phone], [TypeAsk], [Message], [Estado])
+VALUES ('Alice Smith', 'alice.smith@example.com', '9876543210', 'Technical Support', 'A technical support question from Alice.',1);
+
+INSERT INTO [dbo].[Ask] ([Name], [Email], [Phone], [TypeAsk], [Message], [Estado])
+VALUES ('Bob Johnson', 'bob.johnson@example.com', '5555555555', 'Feedback', 'Bob feedback on the service.',1);
+
+INSERT INTO [dbo].[Ask] ([Name], [Email], [Phone], [TypeAsk], [Message], [Estado])
+VALUES ('Eva Williams', 'eva.williams@example.com', '1111111111', 'Sales Inquiry', 'Eva inquiry about your products.',1);
+
+INSERT INTO [dbo].[Ask] ([Name], [Email], [Phone], [TypeAsk], [Message], [Estado])
+VALUES ('Charlie Davis', 'charlie.davis@example.com', '2222222222', 'General Inquiry', 'Charlie question about your services.',1);
+
+
+
+
+SET IDENTITY_INSERT dbo.Dish ON;
+
+-- Insertar datos en la tabla Dish
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    24,
+    N'Hamburguesa',
+    CAST(80.00 AS Decimal(18, 2)),
+    N'Exquisita hamburguesa gourmet preparada con carne de res de primera calidad, sazonada con una mezcla de especias exclusivas. Se sirve en un suave pan artesanal, acompañada de queso cheddar envejecido, tomate orgánico, lechuga fresca, cebolla caramelizada y una suave salsa especial de la casa.',
+    N'/images/24.png'
+);
+
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    25,
+    N'Pizza Pepperoni',
+    CAST(160.00 AS Decimal(18, 2)),
+    N'Deliciosa pizza estilo italiano con una base de masa fina y crujiente, generosamente cubierta con auténtico pepperoni artesanal, salsa de tomate fresco, queso mozzarella de primera calidad, y un toque de aceitunas y albahaca fresca. Una experiencia gastronómica única.',
+    N'/images/25.png'
+);
+
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    26,
+    N'Tacos Res',
+    CAST(750.00 AS Decimal(18, 2)),
+    N'Exquisitos tacos de carne de res premium, marinada con especias tradicionales y asada a la perfección. Se sirven en tortillas de maíz recién hechas y se acompañan con cebolla morada, cilantro fresco, y una suave salsa de aguacate. Una deliciosa experiencia culinaria que evoca los sabores de la auténtica cocina mexicana.',
+    N'/images/26.png'
+);
+
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    27,
+    N'Taco Pollo',
+    CAST(750.00 AS Decimal(18, 2)),
+    N'Taco de pollo jugoso y tierno, preparados con una mezcla especial de especias y hierbas frescas. Se sirven con tortillas de maíz suaves y se complementan con cebolla picada, cilantro y una cremosa salsa de aguacate. Una opción ligera y deliciosa.',
+    N'/images/26.png'
+);
+
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    28,
+    N'Hamburguesa de Pescado',
+    CAST(100.00 AS Decimal(18, 2)),
+    N'Hamburguesa gourmet de pescado fresco, con una mezcla de hierbas y condimentos que realzan su sabor único. Se presenta en un panecillo de brioche, acompañada de lechuga crujiente, tomate maduro y una suave salsa tártara casera. Una opción elegante para los amantes del mar.',
+    N'/images/24.png'
+);
+
+INSERT INTO dbo.Dish ([IdDish], [Name], [Price], [Ingredients], [Image])
+VALUES (
+    29,
+    N'Pizza Suprema',
+    CAST(120.00 AS Decimal(18, 2)),
+    N'Una pizza excepcional que combina los sabores más exquisitos. La masa fina y crujiente se cubre con una mezcla de quesos premium, salchichón, champiñones frescos, pimientos, cebollas y aceitunas negras. Un festín de sabores que deleitará a los amantes de la pizza gourmet.',
+    N'/images/25.png'
+);
+
+SET IDENTITY_INSERT dbo.Dish OFF;
+
+
+
+
+USE [master]
+GO
+ALTER DATABASE [EL_VARON] SET  READ_WRITE 
+GO

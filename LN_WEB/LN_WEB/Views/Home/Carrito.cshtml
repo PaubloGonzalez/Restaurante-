@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Carrito";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+</br></br></br></br>
+<section class="cart">
+    <div class="cart-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Los elementos del carrito se agregan dinámicamente aquí -->
+            </tbody>
+        </table>
+    </div>
+    <div class="cart-summary">
+        <h2>Resumen del Carrito</h2>
+        <p>Total de productos: <span id="total-items">0</span></p>
+        <p>Total a Pagar: <span id="total-amount">$0.00</span></p>
+        <button class="checkout-button">Proceder al Pago</button>
+    </div>
+</section>

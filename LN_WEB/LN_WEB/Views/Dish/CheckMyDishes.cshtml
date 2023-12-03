@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LN_WEB.Entities.CartEnt>
+
+@{
+    ViewBag.Title = "QueryPayment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="breadcrumb-text">
+                <p> EL VARON</p>
+                <h2>Mis Platos</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br />
+
+
+
+<div class="row">
+    <div class="col-12">
+
+        @if (ViewBag.MsjPantalla != null)
+        {
+            <div style="text-align:center" class="alert alert-warning" role="alert">
+                @ViewBag.MsjPantalla
+            </div>
+        }
+
+        @if (Model.Count() == 0)
+        {
+            <div style="text-align:center" class="alert alert-warning" role="alert">
+                Aún no has comprado ningún plato
+            </div>
+        }
+        else
+        {
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Tax</th>
+                        <th>Total</th>
+                    </tr>
+                <thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="user-row">
+                            <td>@item.Name</td>
+                            <td>@Math.Round(item.Price, 2)</td>
+                            <td>@Math.Round(item.Tax, 2)</td>
+                            <td>@Math.Round(item.Price + item.Tax, 2)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+
+    </div>
+</div>

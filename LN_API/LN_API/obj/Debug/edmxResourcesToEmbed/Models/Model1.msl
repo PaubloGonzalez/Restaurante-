@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EL_VARONModelStoreContainer" CdmEntityContainer="EL_VARONEntities">
+    <EntitySetMapping Name="Ask">
+      <EntityTypeMapping TypeName="EL_VARONModel.Ask">
+        <MappingFragment StoreEntitySet="Ask">
+          <ScalarProperty Name="IdAsk" ColumnName="IdAsk" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="TypeAsk" ColumnName="TypeAsk" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bitacora">
+      <EntityTypeMapping TypeName="EL_VARONModel.Bitacora">
+        <MappingFragment StoreEntitySet="Bitacora">
+          <ScalarProperty Name="IdBitacora" ColumnName="IdBitacora" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="DireccionIP" ColumnName="DireccionIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dish">
+      <EntityTypeMapping TypeName="EL_VARONModel.Dish">
+        <MappingFragment StoreEntitySet="Dish">
+          <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Ingredients" ColumnName="Ingredients" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DishCart">
+      <EntityTypeMapping TypeName="EL_VARONModel.DishCart">
+        <MappingFragment StoreEntitySet="DishCart">
+          <ScalarProperty Name="IdDishCart" ColumnName="IdDishCart" />
+          <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DishUsuario">
+      <EntityTypeMapping TypeName="EL_VARONModel.DishUsuario">
+        <MappingFragment StoreEntitySet="DishUsuario">
+          <ScalarProperty Name="IdDishUsuario" ColumnName="IdDishUsuario" />
+          <ScalarProperty Name="IdDish" ColumnName="IdDish" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+          <ScalarProperty Name="PricePaid" ColumnName="PricePaid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="EL_VARONModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="NombreRol" ColumnName="NombreRol" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="EL_VARONModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Contrasenna" ColumnName="Contrasenna" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="ClaveTemporal" ColumnName="ClaveTemporal" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Caducidad" ColumnName="Caducidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="IniciarSesion" FunctionName="EL_VARONModel.Store.IniciarSesion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EL_VARONModel.IniciarSesion_Result">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RegistrarUsuario" FunctionName="EL_VARONModel.Store.RegistrarUsuario" />
+  </EntityContainerMapping>
+</Mapping>

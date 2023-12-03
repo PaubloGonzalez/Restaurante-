@@ -1,0 +1,79 @@
+﻿@model LN_WEB.Entities.UsuarioEnt
+
+@{
+    ViewBag.Title = "Registro";
+    Layout = "~/Views/Shared/_Layout - Login.cshtml";
+}
+
+
+@using (Html.BeginForm("RegistrarUsuario", "Home", FormMethod.Post, new { id = "formRegister", onsubmit = "return validarFormulario(event);" }))
+{
+    <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+
+        <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-5">
+            <div class="card" style="background-color: #242424; ">
+                <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <div class="container">
+                            <div class="col-lg-8 offset-lg-2 text-center">
+                                <img src="~/images/logoNew.png" width="200" height="200" />
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (ViewBag.MsjPantalla != null)
+                    {
+                        <div style="text-align:center" class="alert alert-warning" role="alert">
+                            @ViewBag.MsjPantalla
+                        </div>
+                    }
+
+                    <div class="form-floating mb-3">
+                        @Html.DropDownListFor(m => m.TipoCedula, new SelectList(new[]
+                        {
+                            new { Value = 0, Text = "Cédula Nacional" },
+                            new { Value = 1, Text = "Cédula de Residente" }
+                        }, "Value", "Text"), new { @class = "form-control", id = "TipoCedula" })
+                        <label for="floatingInput">Tipo de Cédula</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.Identificacion, new { @type = "text", @class = "form-control", placeholder = "Número de Cédula" })
+                        <label for="floatingInput">Número de Cédula</label>
+                        @Html.ValidationMessageFor(m => m.Identificacion, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.Nombre, new { @type = "text", @class = "form-control", placeholder = "Nombre", id = "Nombre" })
+                        <label for="floatingInput">Nombre</label>
+                        @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.CorreoElectronico, new { @type = "text", @class = "form-control", @placeholder = "correo@correo.com", id = "CorreoElectronico" })
+                        <label for="floatingInput">Correo Electrónico</label>
+                        @Html.ValidationMessageFor(m => m.CorreoElectronico, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(m => m.Contrasenna, new { @type = "password", @class = "form-control", placeholder = "Contraseña", id = "Contrasenna" })
+                        <label for="floatingPassword">Contraseña</label>
+                        @Html.ValidationMessageFor(m => m.Contrasenna, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        @Html.TextBox("confirmarContrasenna", "", new { @type = "password", @class = "form-control", placeholder = "Confirmar Contraseña", id = "confirmPassword" })
+                        <label for="confirmPassword">Confirmar Contraseña</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Registrarse</button>
+                    <p class="text-center mb-0">Si ya tiene una cuenta <a href="@Url.Action("Login","Home")">Inicie Sesión</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script src="~/Scripts/RegistroScript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

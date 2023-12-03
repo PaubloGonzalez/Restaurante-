@@ -1,0 +1,93 @@
+﻿@model IEnumerable<LN_WEB.Entities.DishEnt>
+
+@{
+    ViewBag.Title = "CheckDish";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<center>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p> EL VARON</p>
+                    <h2>Mis Platos</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <a href="@Url.Action("Add","Dish")">
+        <button type="button" class="btn btn-outline-warning">Agregar</button>
+    </a>
+</center>
+<br />
+<br />
+<div class="row">
+    <div class="col-12">
+
+        @if (ViewBag.MsjPantalla != null)
+        {
+            <div style="text-align:center" class="alert alert-warning" role="alert">
+                @ViewBag.MsjPantalla
+            </div>
+        }
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Ingredientes</th>
+                    <th>Imagen</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            <thead>
+            <tbody style="background-color: #dbd9d5; " >
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                        <td>@item.Ingredients</td>
+                        <td><img src="@item.Image" width="250" height="100" /></td>
+                        <td>
+                            <a href="@Url.Action("Edit","Dish", new { q = item.IdDish })"><i class="fa fa-pen"></i></a>
+                        </td>
+                        <td><button type="button" class="btn" onclick="RemoveDish(@item.IdDish, this)"><i class="fa fa-trash"></i></button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+<script>
+
+    window.onload = function () {
+        AddTotal();
+
+    }
+
+    function RemoveDish(IdDish, element) {
+
+        $.ajax({
+            type: "POST",
+            url: "/Dish/RemoveDish",
+            dataType: "json",
+            data: {
+                "q": IdDish
+            },
+            success: function (respuesta) {
+
+                window.location.href = "/Dish/CheckDishes";
+
+            }
+        });
+
+    }
+
+</script>

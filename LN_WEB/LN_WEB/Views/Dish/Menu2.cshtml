@@ -1,0 +1,101 @@
+﻿@model IEnumerable<LN_WEB.Entities.DishEnt>
+
+@{
+    ViewBag.Title = "Menu";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="breadcrumb-text">
+
+                <p> EL VARON</p>
+                <h2>¡Bienvenido a nuestro menú!</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<br />
+
+<div class="row">
+    @if (ViewBag.MsjPantalla != null)
+    {
+        <div style="text-align:center" class="alert alert-warning" role="alert">
+            @ViewBag.MsjPantalla
+        </div>
+    }
+
+    @foreach (var item in Model)
+
+    {
+        <div class="col-lg-3">
+
+
+            <div class="card" style="width: 100%;">
+
+                <img src="@item.Image" class="card-img-top" alt="..." width="150" height="150" />
+
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">Precio: $ @item.Price</p>
+                    <a href="@Url.Action("AddDishCart","Dish", new { q = item.IdDish })" class="btn btn-outline-warning">Añadir</a>
+                    <button type="button" class="btn btn-outline-primary passingID"
+                            data-name="@item.Name"
+                            data-img="@item.Image"
+                            data-desc="@item.Ingredients"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Ver Más
+                    </button>
+                </div>
+
+            </div>
+            <br /><br />
+        </div>
+
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+           
+            <div  class="modal-header">
+               <h5 class="modal-title" id="staticBackdropLabel">
+                  <h2  id="txtName"></h2>
+              </h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="background-color: #e8e8e8; ">
+                <img src="" alt="Plato" id="imgDish" style="width: 50%; height: auto;" />
+                <p id="txtDesc"></p>
+            
+                <textarea rows="5" style="width:100%; border:0px; text-align:justify; resize:none"></textarea>
+
+                <br />
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="comments-link">
+                    Ingrese sus detalles de solicitud del pedido
+                    &nbsp;&nbsp;
+                    <i class="fas fa-comments"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+
+    $(".passingID").click(function () {
+        $("#txtName").text($(this).attr('data-name'));
+        $("#txtDesc").text($(this).attr('data-desc'));
+        $("#imgDish").attr('src', $(this).attr('data-img'));
+    });
+
+</script>

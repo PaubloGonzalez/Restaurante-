@@ -1,0 +1,118 @@
+﻿@model IEnumerable<LN_WEB.Entities.DishEnt>
+
+@{
+    ViewBag.Title = "Menu";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="breadcrumb-text">
+
+                <p> EL VARON</p>
+                <h2>¡Bienvenido a nuestro menú!</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="latest-news mt-150 mb-150">
+    <div class="container">
+        <div class="row">
+            @if (ViewBag.MsjPantalla != null)
+            {
+                <div style="text-align:center" class="alert alert-warning" role="alert">
+                    @ViewBag.MsjPantalla
+                </div>
+            }
+
+            @foreach (var item in Model)
+
+            {
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-latest-news">
+                        <a href="single-news.html">
+                            <img src="@item.Image" alt="..." width="100" height="200" class="card-img-top">
+                        </a>
+                        <div class="news-text-box">
+                            <h3 class="card-title">@item.Name</h3>
+                            <p class="card-text">Precio: $ @item.Price</p>
+                            <p class="blog-meta"></p>
+                            <a href="@Url.Action("AddDishCart","Carrito", new { q = item.IdDish })" class="btn btn-outline-warning">Añadir</a>
+                            <a type="button" class="btn btn-outline-primary passingID" data-name="@item.Name"
+                               data-img="@item.Image"
+                               data-desc="@item.Ingredients"
+                               data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            }
+
+
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                        <h2 id="txtName"></h2>
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background-color: #e8e8e8; ">
+                    <img src="" alt="Plato" id="imgDish" style="width: 50%; height: auto;" />
+                    <p id="txtDesc"></p>
+
+                    <textarea rows="5" style="width:100%; border:0px; text-align:justify; resize:none"></textarea>
+
+                    <br />
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="comments-link">
+                        Ingrese sus detalles de solicitud del pedido
+                        &nbsp;&nbsp;
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+
+        $(".passingID").click(function () {
+            $("#txtName").text($(this).attr('data-name'));
+            $("#txtDesc").text($(this).attr('data-desc'));
+            $("#imgDish").attr('src', $(this).attr('data-img'));
+        });
+
+    </script>
+
+
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            /* Otros estilos de cuerpo según sea necesario */
+        }
+
+        .card-title {
+            font-style: italic;
+            font-size: 1.2em; /* Ajusta el tamaño de la fuente según sea necesario */
+            /* Otros estilos para la clase card-title según sea necesario */
+        }
+    </style>

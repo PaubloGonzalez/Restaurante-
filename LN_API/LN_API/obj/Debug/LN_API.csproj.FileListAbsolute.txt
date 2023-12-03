@@ -1,0 +1,1018 @@
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\LN_API.dll.config
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\LN_API.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\LN_API.pdb
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csc.exe
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csc.exe.config
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csc.rsp
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csi.exe
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csi.exe.config
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\csi.rsp
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Console.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\vbc.exe
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\vbc.exe.config
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\vbc.rsp
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Antlr3.Runtime.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Newtonsoft.Json.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Helpers.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Http.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Mvc.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Optimization.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Razor.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\WebGrease.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Newtonsoft.Json.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Helpers.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Http.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Mvc.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Optimization.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.Razor.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\obj\Debug\LN_API.pdb
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\EntityFramework.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\EntityFramework.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Buffers.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Memory.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Text.Json.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.ValueTuple.dll
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Buffers.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Memory.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Text.Json.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\EduardoCalvoCastillo\source\repos\LN_API\LN_API\bin\System.ValueTuple.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\LN_API.dll.config
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\LN_API.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\LN_API.pdb
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csc.exe
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csc.exe.config
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csc.rsp
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csi.exe
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csi.exe.config
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\csi.rsp
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Console.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\vbc.exe
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\vbc.exe.config
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\vbc.rsp
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Antlr3.Runtime.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\EntityFramework.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Newtonsoft.Json.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Buffers.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Memory.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Text.Json.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.ValueTuple.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Helpers.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Http.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Mvc.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Optimization.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Razor.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\WebGrease.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\EntityFramework.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Buffers.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Memory.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Text.Json.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.ValueTuple.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Newtonsoft.Json.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Helpers.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Http.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Mvc.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Optimization.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.Razor.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\yosti\OneDrive\Escritorio\Diseño e Implantación\C#\LN_API\LN_API\obj\Debug\LN_API.pdb
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\LN_API.dll.config
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\LN_API.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\LN_API.pdb
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe.config
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csc.rsp
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe.config
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\csi.rsp
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Console.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe.config
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\vbc.rsp
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\EntityFramework.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Buffers.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Memory.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Text.Json.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.ValueTuple.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Http.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Razor.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\WebGrease.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\EntityFramework.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Buffers.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Memory.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Text.Json.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.ValueTuple.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Http.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.Razor.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+D:\Septimo Cuatrimestre\Diseño e Implantación\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb
+D:\ProyectoDiseño\LN_API\LN_API\bin\LN_API.dll.config
+D:\ProyectoDiseño\LN_API\LN_API\bin\LN_API.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\LN_API.pdb
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csc.exe
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csc.exe.config
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csc.rsp
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csi.exe
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csi.exe.config
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\csi.rsp
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Console.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\vbc.exe
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\vbc.exe.config
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\vbc.rsp
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+D:\ProyectoDiseño\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+D:\ProyectoDiseño\LN_API\LN_API\bin\Antlr3.Runtime.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\EntityFramework.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\Newtonsoft.Json.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Buffers.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Memory.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Text.Json.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.ValueTuple.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Helpers.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Http.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Mvc.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Optimization.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Razor.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\WebGrease.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\EntityFramework.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Buffers.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Memory.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Text.Json.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.ValueTuple.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Newtonsoft.Json.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Helpers.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Http.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Mvc.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Optimization.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.Razor.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+D:\ProyectoDiseño\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\ProyectoDiseño\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+D:\ProyectoDiseño\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+D:\ProyectoDiseño\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+D:\ProyectoDiseño\LN_API\LN_API\obj\Debug\LN_API.dll
+D:\ProyectoDiseño\LN_API\LN_API\obj\Debug\LN_API.pdb
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\LN_API.dll.config
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\LN_API.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\LN_API.pdb
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe.config
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csc.rsp
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe.config
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\csi.rsp
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Console.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe.config
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\vbc.rsp
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\EntityFramework.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Buffers.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Memory.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Text.Json.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.ValueTuple.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Http.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Razor.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\WebGrease.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\EntityFramework.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Buffers.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Memory.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Text.Json.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.ValueTuple.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Http.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.Razor.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+D:\Personal\Fidelitas\Septimo Cuatrimestre\Diseño e Implantación\ProyectoDiseño\back\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll.config
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.pdb
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe.config
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.rsp
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe.config
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.rsp
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Console.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe.config
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.rsp
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\WebGrease.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\yosti\source\repos\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll.config
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.pdb
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe.config
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.rsp
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe.config
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.rsp
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Console.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe.config
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.rsp
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\WebGrease.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\JOSEPH\Documents\GitHub\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll.config
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\LN_API.pdb
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.exe.config
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csc.rsp
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.exe.config
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\csi.rsp
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.AppContext.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Console.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Http.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.exe.config
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\vbc.rsp
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\WebGrease.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\EntityFramework.SqlServer.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Buffers.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Memory.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Numerics.Vectors.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Encodings.Web.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Text.Json.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.ValueTuple.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Newtonsoft.Json.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Net.Http.Formatting.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Helpers.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Http.WebHost.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Mvc.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Optimization.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.Razor.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Antlr3.Runtime.pdb
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.Razor.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.AssemblyReference.cache
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CoreCompileInputs.cache
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.csproj.CopyComplete
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\JOSEPH\Desktop\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb
+C:\Users\joshu\OneDrive\Escritorio\Nueva carpeta (5)\Cambios a carrito\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.dll
+C:\Users\joshu\OneDrive\Escritorio\Nueva carpeta (5)\Cambios a carrito\Cambios a carrito\ProyectoRestaurante\ELVARON\LN_API\LN_API\obj\Debug\LN_API.pdb

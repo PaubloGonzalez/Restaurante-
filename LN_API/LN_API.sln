@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LN_API", "LN_API\LN_API.csproj", "{81C682B9-F890-451B-8D0C-3618FC79A2E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81C682B9-F890-451B-8D0C-3618FC79A2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C682B9-F890-451B-8D0C-3618FC79A2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C682B9-F890-451B-8D0C-3618FC79A2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C682B9-F890-451B-8D0C-3618FC79A2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1333D7BB-6726-4D0C-8F0A-63B8C7F937F0}
+	EndGlobalSection
+EndGlobal

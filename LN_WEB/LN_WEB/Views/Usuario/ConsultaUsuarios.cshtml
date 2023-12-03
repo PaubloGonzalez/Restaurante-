@@ -1,0 +1,82 @@
+﻿@model IEnumerable<LN_WEB.Entities.UsuarioEnt>
+
+@{
+    ViewBag.Title = "ConsultaUsuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br>
+<br>
+
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p> EL VARON</p>
+                    <h2>Usuarios Registrados</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />   <br />
+
+    <table class="table table-bordered" id="usersTable">
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Estado</th>
+                <th>Editar</th>
+                <th>Cambiar Estado</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="searchResults" style="background-color: #dbd9d5; ">
+            @foreach (var item in Model)
+            {
+                <tr class="user-row">
+                    <td><img src="@item.Image" width="125" height="110" /></td>
+                    <td>@item.Identificacion</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.CorreoElectronico</td>
+                    <td>@(item.Estado ? "Activo" : "Inactivo")</td>
+                    <td><a href="@Url.Action("Editar","Usuario", new { q = item.IdUsuario })"><i class="fa fa-pen"></i></a></td>
+                    <td><a href="@Url.Action("CambiarEstado","Usuario", new { q = item.IdUsuario })"><i class="fa fa-users-cog"></i></a></td>
+                    <td><button type="button" class="btn" onclick="RemoverUsuario(@item.IdUsuario, this)"><i class="fa fa-trash"></i></button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+<script>
+
+    window.onload = function () {
+        AddTotal();
+
+    }
+
+    function RemoverUsuario(IdUsuario, element) {
+
+        $.ajax({
+            type: "POST",
+            url: "/Usuario/RemoverUsuario",
+            dataType: "json",
+            data: {
+                "q": IdUsuario
+            },
+            success: function (respuesta) {
+
+                window.location.href = "/Usuario/ConsultaUsuarios";
+
+            }
+        });
+
+    }
+
+</script>

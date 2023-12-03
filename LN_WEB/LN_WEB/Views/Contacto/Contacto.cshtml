@@ -1,0 +1,107 @@
+﻿@model LN_WEB.Entities.AskEnt
+
+
+@{
+    ViewBag.Title = "Contacto";
+}
+
+
+@if (ViewBag.MsjPantalla != null)
+{
+    <div style="text-align:center" class="alert alert-warning" role="alert">
+        @ViewBag.MsjPantalla
+    </div>
+}
+
+
+    <!-- find our location -->
+<div class="find-location blue-bg">
+    
+    <div class="container">
+        
+        <div class="row">
+            
+                <div class="col-lg-12 text-center">
+
+                    <p> <i class="fas fa-map-marker-alt"></i> Nuestra ubicación | Consultas</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+<div class="shop-banner">
+    <div class="section-title">
+        <p>
+
+            <h4>Por este medio ofrecemos nuestros servicios de ayuda sobre nuestra pagina o sobre información.</h4>
+            ¿Tienes alguna pregunta?
+        </p>
+    </div>
+
+    <div class="embed-responsive embed-responsive-21by9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.253684426306!2d-83.69766902513972!3d9.912817374529157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d6bef6c7cad1%3A0x845801ca8407efa1!2sComplejo%20Deportivo%20El%20Var%C3%B3n!5e0!3m2!1ses-419!2scr!4v1695004049991!5m2!1ses-419!2scr" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
+
+    </div>
+
+    <div class="contact-from-section mt-150 mb-150">
+        <div class="section-title">
+            <p>
+
+                <h4>FORMULARIO DE CONSULTAS</h4>
+            </p>
+        </div>
+
+     
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div id="form_status"></div>
+                    <div class="contact-form">
+                        @using (Html.BeginForm("RegisterAsk", "Contacto", FormMethod.Post, new { id = "fruitkha-contact", enctype = "multipart/form-data" }))
+                        {
+                            <p>
+                                @Html.TextBoxFor(m => m.Name, new { @type = "text", @class = "form-control", placeholder = "Name", id = "name" })
+                                @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+
+                                @Html.TextBoxFor(m => m.Email, new { @type = "email", @class = "form-control", placeholder = "Email", id = "email" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </p><br />
+                            <p>
+                                @Html.TextBoxFor(m => m.Phone, new { @type = "tel", @class = "form-control", placeholder = "Phone", id = "phone" })
+                                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+
+                                @Html.TextBoxFor(m => m.TypeAsk, new { @type = "text", @class = "form-control", placeholder = "Subject", id = "subject" })
+                                @Html.ValidationMessageFor(m => m.TypeAsk, "", new { @class = "text-danger" })
+                            </p>
+                            <p>
+                                @Html.TextAreaFor(m => m.Message, new { @class = "form-control", placeholder = "Message", id = "message", cols = "30", rows = "10" })
+                                @Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+                            </p>
+                            <button type="submit" class="btn btn-warning py-3 w-100 mb-4">Agregar Consulta</button>
+                        }
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="contact-form-wrap">
+                        <div class="contact-form-box">
+                            <h4><i class="fas fa-map"></i> Dirección de la tienda</h4>
+                            <p>Calle Bolaños <br> Alajuela <br> Costa Rica</p>
+                        </div>
+                        <div class="contact-form-box">
+                            <h4><i class="far fa-clock"></i> Horario de la tienda</h4>
+                            <p>Lunes - Viernes: 8 a 9 PM <br> Sábado - Domingo: 10 a 8 PM </p>
+                        </div>
+                        <div class="contact-form-box">
+                            <h4><i class="fas fa-address-book"></i> Contacto</h4>
+                            <p>Phone: +506 8886 0525 <br> Email: supp@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact form -->
+
+</div>

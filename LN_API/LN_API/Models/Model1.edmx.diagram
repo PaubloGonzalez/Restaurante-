@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="603c79b4a01a4e72af9bd47f7378cf93" Name="Diagram1">
+        <EntityTypeShape EntityType="EL_VARONModel.Ask" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.Bitacora" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.Dish" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.DishCart" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.DishUsuario" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.Rol" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EL_VARONModel.Usuario" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="EL_VARONModel.FK_DishCart_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="EL_VARONModel.FK_DishUsuario_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="EL_VARONModel.FK_DishCart_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="EL_VARONModel.FK_DishUsuario_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="EL_VARONModel.FK_Usuario_Rol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

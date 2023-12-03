@@ -1,0 +1,76 @@
+/* Estilos para el cuerpo del modal */
+.modal-content {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el encabezado del modal */
+.modal-header {
+    background-color: #F28123; /* Cambiado al color #F28123 */
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos para el título del modal */
+.modal-title {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Estilos para el cuerpo del modal */
+.modal-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Estilos para la imagen del plato en el modal */
+#imgDish {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el área de descripción en el modal */
+#txtDesc {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+/* Estilos para el pie del modal */
+.modal-footer {
+    background-color: #f8f9fa;
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos para el botón de cierre del modal */
+.btn-close {
+    color: #ffffff;
+    font-size: 1.25rem;
+    opacity: 1;
+}
+
+
+
+.comments-link {
+    color: #F28123; /* Cambia el color del enlace según tus preferencias */
+    font-size: 18px; /* Cambia el tamaño del texto del enlace */
+}
+
+    .comments-link i {
+        margin-right: 5px; /* Espacio entre el icono y el texto del enlace */
+        font-size: 24px; /* Ajusta el tamaño del icono según tus preferencias */
+    }
+
